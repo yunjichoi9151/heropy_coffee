@@ -29,7 +29,7 @@ window.addEventListener('scroll', function() {
 		});
 	}
 });
-toTopEl.addEventListener('click', function() {
+toTopEl.addEventListener('click', function () {
 	gsap.to(window, .6, {
 		scrollTo: 0
 	});
@@ -60,7 +60,7 @@ new Swiper('.promotion .swiper', {
 	},
 	navigation: {
 		prevEl: '.promotion .swiper-button-prev',
-		nextEl: '.promotion .swiper-buttom-next'
+		nextEl: '.promotion .swiper-button-next'
 	}
 });
 const promotionEl = document.querySelector('section.promotion');

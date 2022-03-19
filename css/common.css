@@ -9,6 +9,16 @@ body {
 a {
 	text-decoration: none;
 }
+/* img(인라인 요소) 하단에 Baseline 공백을 제거 */
+img {
+	display: block;
+}
+/*INNER*/
+.inner {
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+}
 /* HEADER */
 header {
 	background-color: #F6F5F0;
